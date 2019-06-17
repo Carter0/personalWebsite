@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+    padding: 10px 20px
+}
+
+h1.title {
+    text-align: center;
+}
+
+ul.topbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+section.main {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section.main figure {
+    margin: 50px;
+    padding: 10px;
+}
+
+section.main figure img {
+    height: 200px;
+    width: 200px;
+}
+
+figcaption {
+    text-align: center;
+}
